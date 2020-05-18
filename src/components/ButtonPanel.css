@@ -1,0 +1,23 @@
+ 
+.component-button-panel {
+    background-color: #e0e0e0;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+  }
+  button{
+    width: 25%;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .component-button-panel > div {
+    width: 100%;
+    flex: 1 0 auto;
+    display: flex;
+  }
+  .component-button-panel .special{
+    background-color: #f5923e;
+
+  }

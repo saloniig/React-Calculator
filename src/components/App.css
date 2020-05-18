@@ -1,0 +1,22 @@
+ 
+.component-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .component-display {
+    height: 40px;
+    background-color: #858694;
+    width: 100%;
+  }
+
+  .component-display p{
+    font-size: 30px;
+    margin: 5px;
+  }
+
+  
